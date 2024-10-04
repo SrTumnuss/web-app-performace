@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kJfnpRSBmnmkhroIuaJKEJXKYS8vaHboZgvhk1VhQUkulehIwkzMa0sbLNPl0RyeBoM16gylCtzHMG1h94gz5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\web-app-repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lukin\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\lukin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\lukin\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512"
+  ],
+  "logs": []
+}
