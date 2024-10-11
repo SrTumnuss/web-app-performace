@@ -3,56 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90AE38D6-9F5E-43EE-AB3A-9F065D60348D}|Test\\Test.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\test\\usuariocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90AE38D6-9F5E-43EE-AB3A-9F065D60348D}|Test\\Test.csproj|solutionrelative:test\\usuariocontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E7F40B-5608-42E9-98E0-7A1CF7BDB6A8}|web-app-domain\\web-app-domain.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E7F40B-5608-42E9-98E0-7A1CF7BDB6A8}|web-app-domain\\web-app-domain.csproj|solutionrelative:web-app-domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E7F40B-5608-42E9-98E0-7A1CF7BDB6A8}|web-app-domain\\web-app-domain.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E7F40B-5608-42E9-98E0-7A1CF7BDB6A8}|web-app-domain\\web-app-domain.csproj|solutionrelative:web-app-domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\iprodutorepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\iprodutorepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\web-app-repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{537FC246-5197-4F9C-9770-331D3199E90C}|web-app-repository\\web-app-repository.csproj|solutionrelative:web-app-repository\\web-app-repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\web-app-performance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{28447BF2-122D-47FC-AACB-CB5E4C6E8299}|web-app-performance\\web-app-performance.csproj|solutionrelative:web-app-performance\\web-app-performance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{90AE38D6-9F5E-43EE-AB3A-9F065D60348D}|Test\\Test.csproj|c:\\users\\lukin\\downloads\\web-app-performance-main (1)\\web-app-performance-main\\test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90AE38D6-9F5E-43EE-AB3A-9F065D60348D}|Test\\Test.csproj|solutionrelative:test\\test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,178 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\WeatherForecast.cs",
-              "RelativeToolTip": "web-app-performance\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:10:30.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-domain\\Usuario.cs",
-              "RelativeDocumentMoniker": "web-app-domain\\Usuario.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-domain\\Usuario.cs",
-              "RelativeToolTip": "web-app-domain\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:25:39.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "web-app-repository\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\UsuarioRepository.cs",
-              "RelativeToolTip": "web-app-repository\\UsuarioRepository.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAswDcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:10:30.683Z",
+              "DocumentIndex": 2,
+              "Title": "Test",
+              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\Test\\Test.csproj",
+              "RelativeDocumentMoniker": "Test\\Test.csproj",
+              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\Test\\Test.csproj",
+              "RelativeToolTip": "Test\\Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-10T23:17:50.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Program.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Program.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Program.cs",
-              "RelativeToolTip": "web-app-performance\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Title": "UsuarioControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\Test\\UsuarioControllerTest.cs",
+              "RelativeDocumentMoniker": "Test\\UsuarioControllerTest.cs",
+              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\Test\\UsuarioControllerTest.cs",
+              "RelativeToolTip": "Test\\UsuarioControllerTest.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwE4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:47:21.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "web-app-performance\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:10:16.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "web-app-performance\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAYwBMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T23:27:21.108Z",
+              "WhenOpened": "2024-10-10T23:17:27.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "web-app-performance\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "web-app-performance\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "web-app-performance\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA3wDYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:17:36.343Z",
+              "WhenOpened": "2024-09-19T23:27:21.108Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-domain\\Produto.cs",
-              "RelativeDocumentMoniker": "web-app-domain\\Produto.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-domain\\Produto.cs",
-              "RelativeToolTip": "web-app-domain\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:24:12.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "web-app-repository\\ProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\ProdutoRepository.cs",
-              "RelativeToolTip": "web-app-repository\\ProdutoRepository.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAADwvzsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:27:13.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "web-app-repository\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\IUsuarioRepository.cs",
-              "RelativeToolTip": "web-app-repository\\IUsuarioRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T23:14:58.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IProdutoRepository .cs",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\IProdutoRepository .cs",
-              "RelativeDocumentMoniker": "web-app-repository\\IProdutoRepository .cs",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\IProdutoRepository .cs",
-              "RelativeToolTip": "web-app-repository\\IProdutoRepository .cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T00:21:23.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "web-app-performance.csproj",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\web-app-performance.csproj",
-              "RelativeDocumentMoniker": "web-app-performance\\web-app-performance.csproj",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-performance\\web-app-performance.csproj",
-              "RelativeToolTip": "web-app-performance\\web-app-performance.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T23:16:48.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "web-app-repository.csproj",
-              "DocumentMoniker": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\web-app-repository.csproj",
-              "RelativeDocumentMoniker": "web-app-repository\\web-app-repository.csproj",
-              "ToolTip": "C:\\Users\\lukin\\Downloads\\web-app-performance-main (1)\\web-app-performance-main\\web-app-repository\\web-app-repository.csproj",
-              "RelativeToolTip": "web-app-repository\\web-app-repository.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T23:17:49.758Z"
             }
           ]
         }

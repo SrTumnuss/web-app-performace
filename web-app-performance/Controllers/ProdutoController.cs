@@ -23,20 +23,22 @@ namespace web_app_performance.Controllers
         [HttpGet]
         public async Task<IActionResult> GetProduto()
         {
-            string key = "getproduto";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyExpireAsync(key, TimeSpan.FromSeconds(10));
-            string produto = await db.StringGetAsync(key);
+            //string key = "getproduto";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyExpireAsync(key, TimeSpan.FromSeconds(10));
+            //string produto = await db.StringGetAsync(key);
 
-            if (!string.IsNullOrEmpty(produto))
-            {
-                return Ok(produto);
-            }
+            //if (!string.IsNullOrEmpty(produto))
+            //{
+            //    return Ok(produto);
+            //}
 
             var produtos = await _repository.ListarProdutos();
+
+
             string produtosJson = JsonConvert.SerializeObject(produtos);
-            await db.StringSetAsync(key, produtosJson);
+            //await db.StringSetAsync(key, produtosJson);
             return Ok(produtos);
         }
 

@@ -9,3 +9,4 @@ C:\Users\lukin\Downloads\web-app-performance-main (1)\web-app-performance-main\w
 C:\Users\lukin\Downloads\web-app-performance-main (1)\web-app-performance-main\web-app-domain\obj\Debug\net8.0\refint\web-app-domain.dll
 C:\Users\lukin\Downloads\web-app-performance-main (1)\web-app-performance-main\web-app-domain\obj\Debug\net8.0\web-app-domain.pdb
 C:\Users\lukin\Downloads\web-app-performance-main (1)\web-app-performance-main\web-app-domain\obj\Debug\net8.0\ref\web-app-domain.dll
+C:\Users\lukin\Downloads\web-app-performance-main (1)\web-app-performance-main\web-app-domain\obj\Debug\net8.0\web-app-domain.sourcelink.json

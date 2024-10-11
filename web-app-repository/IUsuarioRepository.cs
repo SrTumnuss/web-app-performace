@@ -8,5 +8,7 @@ namespace web_app_repository
         Task SalvarUsuario(Usuario usuario);
         Task AtualizarUsuario(Usuario usuario);
         Task RemoverUsuario(int id);
+        void SalvarUsuario(Func<Usuario> isAny);
+        Task<IEnumerable<object>> SalvarUsuario();
     }
 }
