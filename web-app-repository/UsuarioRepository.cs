@@ -51,5 +51,15 @@ namespace web_app_repository
             await mySqlConnection.ExecuteAsync(sql, new { id });
             await mySqlConnection.CloseAsync();
         }
+
+        public void SalvarUsuario(Func<Usuario> isAny)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<object>> SalvarUsuario()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
