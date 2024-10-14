@@ -36,6 +36,9 @@ namespace web_app_performance.Controllers
 
             var produtos = await _repository.ListarProdutos();
 
+            if(produtos == null)
+                return NotFound();
+
 
             string produtosJson = JsonConvert.SerializeObject(produtos);
             //await db.StringSetAsync(key, produtosJson);
@@ -48,12 +51,12 @@ namespace web_app_performance.Controllers
             await _repository.SalvarProduto(produto);
 
             // Apagar o cache
-            string key = "getproduto";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyDeleteAsync(key);
+            //string key = "getproduto";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyDeleteAsync(key);
 
-            return Ok();
+            return Ok(new { mensagem = "Criado com  Sucesso !" });
         }
 
         [HttpPut]
@@ -62,10 +65,10 @@ namespace web_app_performance.Controllers
             await _repository.AtualizarProduto(produto);
 
             // Apagar o cache
-            string key = "getproduto";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyDeleteAsync(key);
+            //string key = "getproduto";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyDeleteAsync(key);
             return Ok();
         }
 
@@ -75,10 +78,10 @@ namespace web_app_performance.Controllers
             await _repository.RemoverProduto(id);
 
             // Apagar o cache
-            string key = "getproduto";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyDeleteAsync(key);
+            //string key = "getproduto";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyDeleteAsync(key);
 
             return Ok();
         }

@@ -64,10 +64,10 @@ namespace web_app_performance.Controllers
             await _repository.AtualizarUsuario(usuario);
 
             //apagar o cachê
-            string key = "getusuario";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyDeleteAsync(key);
+            //string key = "getusuario";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyDeleteAsync(key);
             return Ok();
         }
 
@@ -77,10 +77,10 @@ namespace web_app_performance.Controllers
             await _repository.RemoverUsuario(id);
 
             //apagar o cachê
-            string key = "getusuario";
-            redis = ConnectionMultiplexer.Connect("localhost:6379");
-            IDatabase db = redis.GetDatabase();
-            await db.KeyDeleteAsync(key);
+            //string key = "getusuario";
+            //redis = ConnectionMultiplexer.Connect("localhost:6379");
+            //IDatabase db = redis.GetDatabase();
+            //await db.KeyDeleteAsync(key);
 
             return Ok();
         }
