@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -123,6 +129,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             },
             "StackExchange.Redis": {
               "target": "Package",
@@ -212,6 +222,10 @@
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.3.7, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
             }
           },
           "imports": [

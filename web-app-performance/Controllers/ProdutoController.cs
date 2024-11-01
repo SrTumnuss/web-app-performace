@@ -5,6 +5,8 @@ using Newtonsoft.Json;
 using StackExchange.Redis;
 using web_app_domain;
 using web_app_repository;
+using RabbitMQ.Client;
+using System.Text;
 
 namespace web_app_performance.Controllers
 {
@@ -23,25 +25,12 @@ namespace web_app_performance.Controllers
         [HttpGet]
         public async Task<IActionResult> GetProduto()
         {
-            //string key = "getproduto";
-            //redis = ConnectionMultiplexer.Connect("localhost:6379");
-            //IDatabase db = redis.GetDatabase();
-            //await db.KeyExpireAsync(key, TimeSpan.FromSeconds(10));
-            //string produto = await db.StringGetAsync(key);
-
-            //if (!string.IsNullOrEmpty(produto))
-            //{
-            //    return Ok(produto);
-            //}
-
             var produtos = await _repository.ListarProdutos();
 
-            if(produtos == null)
+            if (produtos == null)
                 return NotFound();
 
-
             string produtosJson = JsonConvert.SerializeObject(produtos);
-            //await db.StringSetAsync(key, produtosJson);
             return Ok(produtos);
         }
 
@@ -50,13 +39,28 @@ namespace web_app_performance.Controllers
         {
             await _repository.SalvarProduto(produto);
 
-            // Apagar o cache
-            //string key = "getproduto";
-            //redis = ConnectionMultiplexer.Connect("localhost:6379");
-            //IDatabase db = redis.GetDatabase();
-            //await db.KeyDeleteAsync(key);
+            // Enviar mensagem de sucesso para o RabbitMQ
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "fila_teste",
+                                     durable: false,
+                                     exclusive: false,
+                                     autoDelete: false,
+                                     arguments: null);
 
-            return Ok(new { mensagem = "Criado com  Sucesso !" });
+                string mensagem = $"Produto {produto.Nome} criado com sucesso!";
+                var body = Encoding.UTF8.GetBytes(mensagem);
+
+                channel.BasicPublish(exchange: "",
+                                     routingKey: "fila_teste",
+                                     basicProperties: null,
+                                     body: body);
+                Console.WriteLine($"[x] Enviado: {mensagem}");
+            }
+
+            return Ok(new { mensagem = "Criado com Sucesso!" });
         }
 
         [HttpPut]
@@ -64,25 +68,34 @@ namespace web_app_performance.Controllers
         {
             await _repository.AtualizarProduto(produto);
 
-            // Apagar o cache
-            //string key = "getproduto";
-            //redis = ConnectionMultiplexer.Connect("localhost:6379");
-            //IDatabase db = redis.GetDatabase();
-            //await db.KeyDeleteAsync(key);
-            return Ok();
+            // Enviar mensagem de sucesso para o RabbitMQ
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using (var connection = factory.CreateConnection())
+            using (var channel = connection.CreateModel())
+            {
+                channel.QueueDeclare(queue: "fila_teste",
+                                     durable: false,
+                                     exclusive: false,
+                                     autoDelete: false,
+                                     arguments: null);
+
+                string mensagem = $"Produto {produto.Nome} atualizado com sucesso!";
+                var body = Encoding.UTF8.GetBytes(mensagem);
+
+                channel.BasicPublish(exchange: "",
+                                     routingKey: "fila_teste",
+                                     basicProperties: null,
+                                     body: body);
+                Console.WriteLine($"[x] Enviado: {mensagem}");
+            }
+
+            return Ok(new { mensagem = "Atualizado com Sucesso!" });
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             await _repository.RemoverProduto(id);
-
-            // Apagar o cache
-            //string key = "getproduto";
-            //redis = ConnectionMultiplexer.Connect("localhost:6379");
-            //IDatabase db = redis.GetDatabase();
-            //await db.KeyDeleteAsync(key);
-
             return Ok();
         }
     }
